@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     width: 70%;
 }
@@ -98,5 +101,25 @@ div.link-section li{
 
 .row:hover .favo-icon{
     color: red;
+}
+
+.discount{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: .2rem 1rem;
+    top: 84%;
+    
+}
+
+.sustainability{
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding: .2rem 1rem;
+    top: 84%;
+    left: 17.5%;
 }
 /* end main */
