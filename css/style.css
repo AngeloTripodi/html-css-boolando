@@ -78,30 +78,47 @@ div.link-section li{
     background-image: url(../img/1.webp);
 }
 
-/* .row:hover .row-1{
+.row-1:hover{
     background-image: url(../img/1b.webp);
-    display: block;
-    z-index: 2;
-} */
+    
+}
 
 .row-2{
     background-image: url(../img/2.webp);
+}
+.row-2:hover{
+    background-image: url(../img/2b.webp);
+    
 }
 
 .row-3{
     background-image: url(../img/3.webp);
 }
+.row-3:hover{
+    background-image: url(../img/3b.webp);
+    
+}
 
 .row-4{
     background-image: url(../img/4.webp);
 }
-
+.row-4:hover{
+    background-image: url(../img/4b.webp);
+    
+}
 .row-5{
     background-image: url(../img/5.webp);
 }
-
+.row-5:hover{
+    background-image: url(../img/5b.webp);
+    
+}
 .row-6{
     background-image: url(../img/6.webp);
+}
+.row-6:hover{
+    background-image: url(../img/6b.webp);
+    
 }
 
 .favo-icon{
