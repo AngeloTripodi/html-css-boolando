@@ -36,6 +36,13 @@ header{
     padding: .7rem 0;
 }
 
+.fixed{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    width: 100%;
+}
+
 .icon-section i{
     padding-right: .5rem;
 }
@@ -55,6 +62,9 @@ div.link-section li{
 /* end header */
 
 /* start main */
+main{
+    padding-top: 50px;
+}
 .product-row{
     margin-top: 2.5rem;
 }
