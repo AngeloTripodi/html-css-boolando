@@ -57,6 +57,7 @@ div.link-section li{
 .row{
     height: 700px;
     width: 450px;
+    min-width: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,4 +123,28 @@ div.link-section li{
     top: 84%;
     left: 17.5%;
 }
+
+div.row h5{
+    position: absolute;
+   top: 98%;
+}
+
+div.row p.title-product{
+    position: absolute;
+    top: 100%;
+}
+
+div.row p.price-product{
+    position: absolute;
+    top: 103%;
+    color: red;
+    font-weight: bold;
+}
+
+span.old-price{
+    color: black;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
 /* end main */
