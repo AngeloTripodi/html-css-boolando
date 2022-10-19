@@ -7,8 +7,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 .container{
-    width: 70%;
+    width: 72%;
 }
 
 .flex-space-between{
@@ -191,3 +192,36 @@ span.old-price{
 }
 
 /* end main */
+
+/* start footer */
+
+footer{
+    background-color: #1a1a1a ;
+    color: white;
+}
+
+.footer{
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sub-footer{
+    padding-bottom: 2rem;
+}
+
+div.company-info ul{
+    display: flex;
+
+}
+
+div.company-info li{
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+.sub-footer > .icon-section i{
+    padding-left: .5rem;
+    padding-right: 0;
+}
+
+/* end footer */
