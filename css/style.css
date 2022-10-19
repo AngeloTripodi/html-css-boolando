@@ -126,7 +126,9 @@ div.link-section li{
 
 div.row h5{
     position: absolute;
-   top: 98%;
+    top: 98%;
+    color: grey;
+    font-weight: 500;
 }
 
 div.row p.title-product{
