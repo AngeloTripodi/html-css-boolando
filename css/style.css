@@ -54,6 +54,15 @@ div.link-section li{
 /* end header */
 
 /* start main */
+.product-row{
+    margin-top: 2.5rem;
+}
+
+.margin-row{
+    margin-top: 5rem;
+    margin-bottom: 6.5rem;
+
+}
 .row{
     height: 700px;
     width: 450px;
@@ -68,6 +77,12 @@ div.link-section li{
 .row-1{
     background-image: url(../img/1.webp);
 }
+
+/* .row:hover .row-1{
+    background-image: url(../img/1b.webp);
+    display: block;
+    z-index: 2;
+} */
 
 .row-2{
     background-image: url(../img/2.webp);
@@ -122,6 +137,15 @@ div.link-section li{
     padding: .2rem 1rem;
     top: 84%;
     left: 17.5%;
+}
+
+.sustainability-wo-discount{
+    position: absolute;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    padding: .2rem 1rem;
+    top: 84%;
 }
 
 div.row h5{
